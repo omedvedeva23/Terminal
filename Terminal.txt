@@ -18,5 +18,14 @@
 18) вывести несколько последних строк из текстового файла - tail -n5
 19) просмотреть содержимое длинного файла - less
 20) вывести дату и время - date
+21)Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+#!/bin/bash
+cd Medvedeva
+mkdir qa_1 qa_2 qa_3
+cd qa_1
+touch olha_1.txt olha_2.txt olha_3.txt olha_4.json olha_5.json
+mkdir ol_1 om_2 ol_3
+ls -la
+
  
 
